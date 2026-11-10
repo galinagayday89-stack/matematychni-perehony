@@ -1,5 +1,10 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Математичні перегони — безплатна інтерактивна гра з математики для 1–6 класів. Автор: Галина Гайдай">
 <title>Математичні перегони</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;0,800;1,800;1,900&family=Nunito:wght@500;700;800&display=swap">
 <style>
@@ -197,6 +202,9 @@ footer .wrap{padding-block:18px;display:flex;flex-wrap:wrap;gap:8px;justify-cont
 .confirm{display:inline-flex;gap:8px;align-items:center;flex-wrap:wrap}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
 
 <header>
   <div class="wrap hd">
@@ -770,3 +778,6 @@ document.addEventListener("keydown",e=>{if(!G||G.lock||G.done)return;const n="12
 refreshAva();tick();setInterval(tick,30000);
 show(location.hash.slice(1)||"home");
 </script>
+
+</body>
+</html>
